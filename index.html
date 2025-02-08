@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRICKET</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="result_field">
+        <div class="result_images">
+          <span class="user_result">
+            <img
+              src="images/user.png"
+              alt="User's choice image"
+              id="userImage"
+            />
+          </span>
+          <span class="bot_result">
+            <img src="images/bot.png" alt="BOT's choice image" id="botImage" />
+          </span>
+        </div>
+        <div class="result">Play Cricket</div>
+      </div>
+      <div class="option_images">
+        <div class="row">
+          <div class="col-1">
+            <span class="option_image" data-value="1">
+              <img src="images/one.png" alt="One" />
+              <p>One</p>
+            </span>
+            <span class="option_image" data-value="2">
+              <img src="images/two.png" alt="Two" />
+              <p>Two</p>
+            </span>
+            <span class="option_image" data-value="3">
+              <img src="images/three.png" alt="Three" />
+              <p>Three</p>
+            </span>
+            <span class="option_image" data-value="4">
+              <img src="images/four.png" alt="Four" />
+              <p>Four</p>
+            </span>
+            <span class="option_image" data-value="5">
+              <img src="images/five.png" alt="Five" />
+              <p>Five</p>
+            </span>
+            <span class="option_image" data-value="6">
+              <img src="images/six.png" alt="Six" />
+              <p>Six</p>
+            </span>
+            <span class="option_image" data-value="9">
+              <img src="images/nine.png" alt="Nine" />
+              <p>Nine</p>
+            </span>
+          </div>
+          <div class="col-2">
+            <span class="option_image" data-value="10">
+              <img src="images/ten.png" alt="Ten" />
+              <p>Ten</p>
+            </span>
+            <span class="option_image" data-value="20">
+              <img src="images/twenty.png" alt="Twenty" />
+              <p>Twenty</p>
+            </span>
+            <span class="option_image" data-value="50">
+              <img src="images/fifty.png" alt="Fifty" />
+              <p>Fifty</p>
+            </span>
+            <span class="option_image" data-value="100">
+              <img src="images/hundred.png" alt="Hundred" />
+              <p>Hundred</p>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="score">
+        <div id="total-score">
+         Total Score: <span id="totalScore">0</span>
+        </div>
+        <button id="resetButton">Reset Game</button>
+      </div>
+    </section>
+    <script src="script.js" defer></script>
+  </body>
+</html>
